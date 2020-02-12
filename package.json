@@ -1,0 +1,26 @@
+{
+    "name": "nodejs-task",
+    "version": "1.0.0",
+    "description": "Task from BeeWeb for Back-End Developer",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "author": "Melqon Hovhannisyan",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^3.0.8",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.4",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mysql": "^2.18.1",
+        "passport": "^0.4.1",
+        "passport-jwt": "^4.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
